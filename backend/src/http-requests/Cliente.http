@@ -1,0 +1,28 @@
+### Crear un cliente
+POST http://localhost:9000/api/clientes
+Content-Type: application/json
+
+{
+  "direccion": "123 Calle Falsa, Ciudad, País",
+  "estado": "activo",
+  "estado_cliente": "potencial",
+  "numeroIdentificacion": "321321321"
+}
+
+### Obtener un cliente por número de identificación
+GET http://localhost:9000/api/clientes/52647896
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJudW1lcm9JZGVudGlmaWNhY2lvbiI6IjEyMzQ1Njc4OTAiLCJub21icmUiOiJBbGV4YW5kZXIiLCJhcGVsbGlkbyI6IlBlcmRvbW8gUGFycmEiLCJlbWFpbCI6ImFsZXhhbmRlci5wZXJkb21vQGdtYWlsLmNvbSIsIm5vbWJyZV9yb2wiOiJhc2lzdGVudGUiLCJpYXQiOjE3NDE0OTE2MTEsImV4cCI6MTc0MTQ5NTIxMX0.FHaYGYJQfEbojBMUJIiqBg6ciK9Hsv9J_i8y-99KiTY
+
+### Obtener todos los clientes
+GET http://localhost:9000/api/clientes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJudW1lcm9JZGVudGlmaWNhY2lvbiI6Ijk5OTk5OTk5OTkiLCJub21icmUiOiJBbGV4YW5kZXIiLCJhcGVsbGlkbyI6IlBhcnJhIiwiZW1haWwiOiJhbGV4YW5kZXIucGVyZG9tb0BnbWFpbC5jb20iLCJ0ZWxlZm9ubyI6IjAwMDAwMDAwMDAiLCJub21icmVfcm9sIjoiYXNpc3RlbnRlIiwiaWF0IjoxNzQ1MjUzNjczLCJleHAiOjE3NDUyNTcyNzN9.AkaZSshQlznUNBoP7uZJl3Ce_dstLtN-GebxaCp9XRc
+
+### Actualizar un cliente por número de identificación
+PUT http://localhost:9000/api/clientes/4561237890
+Content-Type: application/json
+
+{
+  "direccion": "Nueva dirección, Ciudad, País",
+  "estado": "inactivo",  
+  "estado_cliente": "cliente"  
+}

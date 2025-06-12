@@ -1,0 +1,8 @@
+### Mirar el JWT
+POST http://localhost:9000/api/autenticacion
+Content-Type: application/json
+
+{
+  "email": "alex05.perdomo@gmail.com",
+  "password": "1118365949"
+}

@@ -1,0 +1,25 @@
+### Crear un nuevo rol (POST)
+POST http://localhost:9000/api/rols
+Content-Type: application/json
+
+{
+  "id_rol": 2,
+  "nombre": "asistente"
+}
+
+### Obtener todos los roles (GET)
+GET http://localhost:9000/api/rols
+
+### Obtener un rol por ID (GET)
+GET http://localhost:9000/api/rols/3
+
+### Actualizar un rol (PUT)
+PUT http://localhost:9000/api/rols/2
+Content-Type: application/json
+
+{
+  "nombre": "asistente"
+}
+
+### Eliminar un rol (DELETE)
+DELETE http://localhost:9000/api/rols/1

@@ -1,0 +1,40 @@
+### Crear una nueva Agenda
+POST http://localhost:9000/api/agendas
+Content-Type: application/json
+
+{
+  "fecha": "2025-08-12T10:00:00Z",
+  "hora": "12:00",
+  "descripcion": "cita ip asdasdasd",
+  "estado": "programada",
+  "id_proceso": 9876543211
+}
+###
+
+### Obtener todas las agendas de la base
+GET http://localhost:9000/api/agendas/2
+Content-Type: application/json
+###
+
+### Obtener todas las agendas especializadamente de un abogado
+GET http://localhost:9000/api/agendas/abogado/2289897
+Content-Type: application/json
+###
+
+### Editar una Agenda
+PUT http://localhost:9000/api/agendas/2
+Content-Type: application/json
+
+{
+  "fecha": "2025/03/11",
+  "id_proceso": 1,
+  "descripcion": "Cita de juan"
+}
+###
+
+### Eliminar una Agenda
+DELETE http://localhost:9000/api/agendas/3
+Content-Type: application/json
+###
+
+

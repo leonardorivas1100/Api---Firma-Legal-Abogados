@@ -1,0 +1,40 @@
+### Obtener un procesos agrupados
+GET http://localhost:9000/api/procesos
+
+### Obtener un proceso por ID
+GET http://localhost:9000/api/procesos/1013110965
+
+### Obtener procesos filtrados por el numero de identificación del abogado
+GET http://localhost:9000/api/procesos/abogado/
+
+### Crear un nuevo proceso
+POST http://localhost:9000/api/procesos
+Content-Type: application/json
+
+{
+  "id_proceso": 2,
+  "descripcion": "Descripción del proceso",
+  "fecha_inicio": "2024-11-12T10:00:00Z",
+  "estado": "activo",
+  "numeroIdentificacionCliente": "4561237890",
+  "numeroIdentificacionAbogado": "1029144521",
+  "id_tipo": 3
+}
+
+### Actualizar un proceso existente
+PUT http://localhost:9000/api/procesos/1
+Content-Type: application/json
+
+{
+  "descripcion": "Proceso para probar el tema de actualización 3",
+  "fecha_inicio": "2024-11-15T14:30:00Z",
+  "estado": "activo",
+  "numeroIdentificacionCliente": "9876543210",
+  "numeroIdentificacionAbogado": "1029144521",
+  "id_tipo": 3,
+  "id_subproceso": 1,
+  "id_docesp": 1
+}
+
+### Eliminar un proceso por ID
+DELETE http://localhost:9000/api/procesos/1

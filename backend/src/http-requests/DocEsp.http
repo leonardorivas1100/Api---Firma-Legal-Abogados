@@ -1,0 +1,276 @@
+### Crear un nuevo DocEsp para Notariales - Compraventas
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 1,
+  "id_subproceso": 1,
+  "nombre": [
+    "Escritura de compraventa",
+    "Certificado de tradición y libertad",
+    "Certificación de paz y salvo (impuestos y administración)",
+    "Cédulas de los intervinientes",
+    "Avalúo catastral o comercial"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Sucesiones
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 2,
+  "id_subproceso": 2,
+  "nombre": [
+    "Inventario de bienes",
+    "Acta de partición",
+    "Registro civil de defunción",
+    "Certificados de libertad de los inmuebles",
+    "Testamento (si existe)",
+    "Documentos de identidad de los herederos"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Divorcios
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 3,
+  "id_subproceso": 3,
+  "nombre": [
+    "Escritura de liquidación de sociedad conyugal",
+    "Registro civil de matrimonio",
+    "Registro civil de nacimiento de hijos (si aplica)",
+    "Documento de identidad de los intervinientes"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Liquidaciones Patrimoniales
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 4,
+  "id_subproceso": 4,
+  "nombre": [
+    "Acta de liquidación de sociedad patrimonial",
+    "Escritura pública de liquidación",
+    "Registro civil de matrimonio",
+    "Certificación de bienes y deudas conjuntas"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Hipotecas
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 5,
+  "id_subproceso": 5,
+  "nombre": [
+    "Escritura de constitución de hipoteca",
+    "Certificado de libertad del bien hipotecado",
+    "Documento de identidad del deudor y acreedor",
+    "Pagaré (si aplica)"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Poderes
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 6,
+  "id_subproceso": 6,
+  "nombre": [
+    "Carta de poder notariada",
+    "Documento de identidad del poderdante y apoderado",
+    "Certificación de existencia y representación legal (si aplica)"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Salidas del País
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 7,
+  "id_subproceso": 7,
+  "nombre": [
+    "Carta de autorización notariada",
+    "Copia de registro civil de nacimiento del menor",
+    "Documento de identidad de los padres"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Matrimonios Extranjeros
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 8,
+  "id_subproceso": 8,
+  "nombre": [
+    "Certificados de soltería o divorcio",
+    "Pasaportes y cédulas extranjeras",
+    "Registro civil de nacimiento apostillado y traducido"
+  ]
+}
+
+### Crear un nuevo DocEsp para Notariales - Cancelaciones de Patrimonio y Afectaciones a Vivienda Familiar
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 9,
+  "id_subproceso": 9,
+  "nombre": [
+    "Escritura pública de cancelación de afectación",
+    "Certificado de libertad del bien",
+    "Documento de identidad de los intervinientes"
+  ]
+}
+
+### Crear un nuevo DocEsp para Juzgados - Pertenencias
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 10,
+  "id_subproceso": 10,
+  "nombre": [
+    "Documento de posesión (constancia de posesión o testimonios)",
+    "Escrituras anteriores",
+    "Certificado de libertad",
+    "Documentos de identidad de los poseedores"
+  ]
+}
+
+### Crear un nuevo DocEsp para Juzgados - Declaraciones de Unión Marital
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 11,
+  "id_subproceso": 11,
+  "nombre": [
+    "Declaración extrajuicio de unión marital",
+    "Registro civil de nacimiento de ambos convivientes",
+    "Documentos de identidad de los convivientes"
+  ]
+}
+
+### Crear un nuevo DocEsp para Juzgados - Sucesiones
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 12,
+  "id_subproceso": 12,
+  "nombre": [
+    "Resolución judicial de sucesión",
+    "Inventario de bienes y deudas",
+    "Certificado de defunción del causante",
+    "Documentos de identidad de los herederos"
+  ]
+}
+
+### Crear un nuevo DocEsp para Juzgados - Cobros Jurídicos
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 13,
+  "id_subproceso": 13,
+  "nombre": [
+    "Título ejecutivo (pagaré, letra de cambio)",
+    "Requerimientos previos de pago",
+    "Documentos de identidad del acreedor y deudor"
+  ]
+}
+
+### Crear un nuevo DocEsp para Curadurías - Reglamentos de Propiedad Horizontal
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 14,
+  "id_subproceso": 14,
+  "nombre": [
+    "Escritura de constitución de propiedad horizontal",
+    "Estatutos de la propiedad",
+    "Certificado de libertad del inmueble",
+    "Documento de identidad del representante legal"
+  ]
+}
+
+### Crear un nuevo DocEsp para Curadurías - Divisorios
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 15,
+  "id_subproceso": 15,
+  "nombre": [
+    "Acta de división de copropiedad",
+    "Escrituras de cada una de las propiedades resultantes",
+    "Documentos de identidad de los copropietarios"
+  ]
+}
+
+### Crear un nuevo DocEsp para Curadurías - Declaraciones de Construcción
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 16,
+  "id_subproceso": 16,
+  "nombre": [
+    "Licencia de construcción o de adecuación",
+    "Planos aprobados por la autoridad",
+    "Documento de identidad del propietario"
+  ]
+}
+
+### Crear un nuevo DocEsp para Curadurías - Reconocimientos de Construcción
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 17,
+  "id_subproceso": 17,
+  "nombre": [
+    "Acta de reconocimiento de construcción",
+    "Certificado de libertad del inmueble",
+    "Licencias previas (si aplica)"
+  ]
+}
+
+### Crear un nuevo DocEsp para Curadurías - Licencias de Construcción
+POST http://localhost:9000/api/docesp
+Content-Type: application/json
+
+{
+  "id_docesp": 18,
+  "id_subproceso": 18,
+  "nombre": [
+    "Licencia de construcción",
+    "Planos aprobados",
+    "Documento de identidad del solicitante",
+    "Aprobaciones de urbanismo (si aplica)"
+  ]
+}
+
+### Obtener todos los DocEsp
+GET http://localhost:9000/api/docesp
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJudW1lcm9JZGVudGlmaWNhY2lvbiI6Ijk5OTk5OTk5OTkiLCJub21icmUiOiJBbGV4YW5kZXIiLCJhcGVsbGlkbyI6IlBhcnJhIiwiZW1haWwiOiJhbGV4YW5kZXIucGVyZG9tb0BnbWFpbC5jb20iLCJ0ZWxlZm9ubyI6IjAwMDAwMDAwMDAiLCJub21icmVfcm9sIjoiYXNpc3RlbnRlIiwiaWF0IjoxNzQ5MTQxODc0LCJleHAiOjE3NDkxNDU0NzR9.RBRMH68ovysLcyYfIiYJqlxTroUMDS0ljvihHfWo-Nw
+
+### Obtener un DocEsp por ID
+GET http://localhost:9000/api/docesp/1
+Content-Type: application/json
+
+### Eliminar un DocEsp por ID
+DELETE http://localhost:9000/api/docesp/18
+Content-Type: application/json

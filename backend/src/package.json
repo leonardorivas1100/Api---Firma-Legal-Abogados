@@ -1,0 +1,37 @@
+{
+  "name": "Firma Legal Abogados",
+  "version": "1.0.0",
+  "description": "Proyecto para la gestión Legal y DOcumental de L&O Firma Legal Abogados",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "MONGODB",
+    "EXPRESS"
+  ],
+  "author": "Juan Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejemploapi": "file:",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "mongoose-sequence": "^6.0.1",
+    "node": "^23.9.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

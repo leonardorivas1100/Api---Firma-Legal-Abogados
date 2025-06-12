@@ -1,0 +1,196 @@
+### Crear un nuevo subproceso (Notariales - compraventas)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+  "id_subproceso": 1,
+  "id_tipo": 1,
+  "nombre": "compraventas"
+}
+
+### Crear un nuevo subproceso (Notariales - sucesiones)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+  "id_subproceso": 2,
+  "id_tipo": 1,
+  "nombre": "sucesiones"
+}
+
+### Crear un nuevo subproceso (Notariales - divorcios)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+  "id_subproceso": 3,
+  "id_tipo": 1,
+  "nombre": "divorcios"
+}
+
+### Crear un nuevo subproceso (Notariales - liquidaciones patrimoniales)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+  "id_subproceso": 4,
+  "id_tipo": 1,
+  "nombre": "liquidaciones patrimoniales"
+}
+
+### Crear un nuevo subproceso (Notariales - hipotecas)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 5,
+  "id_tipo": 1,
+  "nombre": "hipotecas"
+}
+
+### Crear un nuevo subproceso (Notariales - poderes)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 6,
+  "id_tipo": 1,
+  "nombre": "poderes"
+}
+
+### Crear un nuevo subproceso (Notariales - salidas del país)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 7,
+  "id_tipo": 1,
+  "nombre": "salidas del país"
+}
+
+### Crear un nuevo subproceso (Notariales - matrimonios extranjeros)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 8,
+  "id_tipo": 1,
+  "nombre": "matrimonios extranjeros"
+}
+
+### Crear un nuevo subproceso (Notariales - cancelaciones de patrimonio y afectaciones a vivienda familiar)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 9,
+  "id_tipo": 1,
+  "nombre": "cancelaciones de patrimonio y afectaciones a vivienda familiar"
+}
+
+### Crear un nuevo subproceso (Juzgados - pertenencias)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 10,
+  "id_tipo": 2,
+  "nombre": "pertenencias"
+}
+
+### Crear un nuevo subproceso (Juzgados - declaraciones de unión marital)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 11,
+  "id_tipo": 2,
+  "nombre": "declaraciones de unión marital"
+}
+
+### Crear un nuevo subproceso (Juzgados - sucesiones)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 12,
+  "id_tipo": 2,
+  "nombre": "sucesiones"
+}
+
+### Crear un nuevo subproceso (Juzgados - cobros jurídicos)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 13,
+  "id_tipo": 2,
+  "nombre": "cobros jurídicos"
+}
+
+### Crear un nuevo subproceso (Curadurías - reglamentos de propiedad horizontal)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 14,
+  "id_tipo": 3,
+  "nombre": "reglamentos de propiedad horizontal"
+}
+
+### Crear un nuevo subproceso (Curadurías - divisorios)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 15,
+  "id_tipo": 3,
+  "nombre": "divisorios"
+}
+
+### Crear un nuevo subproceso (Curadurías - declaraciones de construcción)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 16,
+  "id_tipo": 3,
+  "nombre": "declaraciones de construcción"
+}
+
+### Crear un nuevo subproceso (Curadurías - reconocimientos de construcción)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 17,
+  "id_tipo": 3,
+  "nombre": "reconocimientos de construcción"
+}
+
+### Crear un nuevo subproceso (Curadurías - licencias de construcción)
+POST http://localhost:9000/api/subprocesos
+Content-Type: application/json
+
+{
+    "id_subproceso": 18,
+  "id_tipo": 3,
+  "nombre": "licencias de construcción"
+}
+
+### Obtener todos los subprocesos
+GET http://localhost:9000/api/subprocesos
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJudW1lcm9JZGVudGlmaWNhY2lvbiI6IjEwMTAxMDEwMTAiLCJub21icmUiOiJMYW1pbmUiLCJhcGVsbGlkbyI6IllhbWFsIiwiZW1haWwiOiJsYW1pbmVAZXhhbXBsZS5jb20iLCJub21icmVfcm9sIjoiYWJvZ2FkbyIsImlhdCI6MTc0MDM2MDM3MywiZXhwIjoxNzQwMzYzOTczfQ.crDK6R2BFf2svHcJ256LPEKyfCi69uqCnHPnkfEQ-a0
+
+### Obtener un subproceso por ID
+GET http://localhost:9000/api/subprocesos/18
+Content-Type: application/json
+
+###Obtener subproceso por Tipo
+GET http://localhost:9000/api/subprocesos/tipo/1
+Content-Type: application/json
+
+### Eliminar un subproceso por ID
+DELETE http://localhost:9000/api/subprocesos/18
+Content-Type: application/json

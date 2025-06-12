@@ -1,0 +1,24 @@
+### Crear un nuevo abogado
+POST http://localhost:9000/api/abogados
+Content-Type: application/json
+
+{
+  "especialidad": "Derecho Penal",
+  "area_juridica": "Penal",
+  "experiencia": "5 años en la defensa de casos penales",
+  "numeroIdentificacion": "123568978"
+}
+
+### Obtener un abogado por ID
+GET http://localhost:9000/api/abogados/1029144521
+
+### Actualizar un abogado
+PUT http://localhost:9000/api/abogados/1029144521
+Content-Type: application/json
+
+{
+  "especialidad": "Derecho Civil",
+  "area_juridica": "Civil",
+  "experiencia": "7 años en contratos civiles",
+  "numeroIdentificacion": "1029144521"
+}

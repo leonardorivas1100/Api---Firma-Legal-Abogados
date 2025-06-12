@@ -1,0 +1,27 @@
+### Crear un nuevo ProcesoAbogado
+POST http://localhost:9000/api/procesoabogados
+Content-Type: application/json
+
+{
+    "id_procesoabogado": 1,
+    "numeroIdentificacion": 123456789,
+    "id_proceso": 1
+}
+
+### Obtener un ProcesoAbogado por ID
+GET http://localhost:9000/api/procesoabogados/1
+
+### Obtener todos los ProcesoAbogados
+GET http://localhost:9000/api/procesoabogados
+
+### Editar un ProcesoAbogado
+PUT http://localhost:9000/api/procesoabogados/1
+Content-Type: application/json
+
+{
+    "numeroIdentificacion": 987654321,
+    "id_proceso": 102
+}
+
+### Eliminar un ProcesoAbogado
+DELETE http://localhost:9000/api/procesoabogados/1

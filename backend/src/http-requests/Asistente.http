@@ -1,0 +1,19 @@
+POST http://localhost:9000/api/asistentes
+Content-Type: application/json
+
+{ 
+  "numeroIdentificacion": "1234567890"
+}
+
+
+### Obtener un asistente por ID
+GET http://localhost:9000/api/asistentes/1234567890
+
+
+### Actualizar un asistente
+PUT http://localhost:9000/api/asistentes/1234567890
+Content-Type: application/json
+
+{
+  "numeroIdentificacion": "1456230789"
+}
