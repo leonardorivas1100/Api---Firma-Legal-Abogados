@@ -44,7 +44,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJudW1lcm9JZGVudGlmaWNhY2lv
 
 
 ### Obtener todos los usuarios
-GET http://localhost:9000/api/usuarios
+GET https://api-firma-legal-abogados-c3yh.vercel.app/api/usuarios
 
 ### Obtener un usuario por su número de identificación
 GET http://localhost:9000/api/usuarios/2289897019
